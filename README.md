@@ -1,24 +1,11 @@
-# README
+### notebook-api
+It is a API-only project which implements a CRUD-like contacts notebook application. The goal of this project is to use intermediate and advanced concepts on RESTful apis with Ruby on Rails, as well as Capybara and Rspec test.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Concepts used in this project:
+    - CRUD on nested attributes
+    - CORS activation
+    - Active Model Serializer
+    - JSON:API specification
+    - Include tag to show nested attributes attributes
+    - Meta tag to show informtation about the JSON
+    - Links tag to include links to other related resourses
