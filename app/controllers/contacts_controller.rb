@@ -3,7 +3,9 @@ class ContactsController < ApplicationController
 
   # GET /contacts
   def index
-    @contacts = Contact.all
+    kind_id = params[:kind_id]
+    
+    @contacts = kind_id ? Contact.where(kind: kind_id) : Contact.all
 
     render json: @contacts
   end
